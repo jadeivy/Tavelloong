@@ -1,0 +1,218 @@
+a {
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+.container{
+	background:black;
+	color:white;
+	align:center;
+	
+	
+}
+.button {
+	background: black;
+	color: white;
+	padding: 8px 20px;
+	border-radius:5px solid aqua;
+}
+
+.button:hover {
+	background:aqua ;
+	color: black;
+	margin:5px solid black;
+}
+
+#main-menu {
+	margin: 5px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(5,1fr);
+	background:url(../images/bohol.jpg);
+}
+
+.logo{
+	margin: 0;
+	height: 150px;
+	text-align: center;
+}
+
+.body {
+	color: #fff;
+	text-align: center;
+}
+
+.container1{
+	text-align:center;
+	padding: 150px;
+	color: white;
+	margin-bottom: 10px;
+	background-image: url(../images/first.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	margin-top:20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family:sans-serif;
+	font-size:24px;
+}
+
+.showcase {
+	margin-bottom:5px;
+	padding: 250px;
+	background: black;
+	color: gray;
+	box-shadow: 0 0 20px;
+	text-shadow: 0 0 10px;
+	background-image: url(../images/showcase.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.showcase:hover{
+	background-image:url(../images/t7.2.jpg);
+	background-position:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.main-article {
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 2fr 1fr;
+	color: red;
+	font-family:sans-serif;
+	font-size:16px;
+	color:white;
+	
+}
+
+.main-article ol{
+	font-size:20px;
+	font-family:sans-serif;
+}
+
+/* MAIN ARTICLE LEFT*/
+
+.main-article-left {
+	background: black;
+	text-align: left;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 2fr 1fr;
+	
+}
+
+.main-article-left p {
+	margin: 40px 0 60px 0;
+}
+
+
+.main-article-left h3 {
+	margin-top: 30px;
+}
+
+.main-article-right {
+	background:black;
+	padding: 40px;
+}
+
+.main-article-right1 {
+	background:black;
+	padding: 40px;
+}
+
+.main-article-right2 {
+	background:black;
+	padding: 40px;
+}
+
+.main-article-right3{
+	background:black;
+	padding: 40px;
+}
+
+.main-article-right4 {
+	background:black;
+	padding: 40px;
+}
+
+
+.main-article-right h4 {
+	margin-top: 50px;
+}
+.main-article-right p {
+	margin: 40px 0 60px 0;
+}
+
+.main-article:  {
+	background:black
+	color: white;
+
+}
+
+.showcase1 {
+	margin-bottom;5px;
+	padding: 200px;
+	background: black;
+	color: gray;
+	box-shadow: 0 0 20px;
+	text-shadow: 0 0 10px;
+	background-image: url(../images/turtle.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.showcase1:hover{
+	background-image:url(../images/header.jpg);
+	background-position:;
+	background-repeat:;
+	background-size:;
+}
+
+footer {
+	text-align: center;
+	padding: 100px;
+	background:black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+	background: pink;
+	color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: red;
+    color: white;
+	
+}

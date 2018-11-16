@@ -1,0 +1,178 @@
+a{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.header{
+	padding: 120px;
+	margin-bottom: 10px;
+	background-image: url(../images/3.jpeg);
+	background-repeat: no-repeat;
+}	
+
+.header {
+	padding: 90px;
+}
+
+	
+input{
+	position: right;
+	border-color: blue;
+	background: black;
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+	margin-bottom: 10px;
+	position: absolute; top: 50px; right: 100px;
+}
+
+.logo{
+	margin: 10px 5px;
+	height: 90px;
+	width: 50px;
+	
+}
+	
+.button {
+	background: black;
+	color: aqua;
+	padding: 8px 20px;
+	border-color: blue;
+	grid-template-columns: 1fr (repeat, 5);
+}
+
+.button:hover {
+	background: aqua ;
+	color: black;
+}
+
+.body { 
+	color: #fff;
+	text-align: center;
+	background: black;
+}
+
+
+.menu{
+	float: center;
+	list-style: none;
+	margin: 20px;
+
+}	
+	
+.menu li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border-radius: 1px solid balck;
+    background: black;
+	font-size: 36;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	background-color: black;
+
+}
+
+.container1{
+	text-align: center;
+	padding: 150px;
+	color: white;
+	margin-bottom: 10px;
+	background-image: url(../images/first.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 24px;
+}
+	
+
+.article{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr;
+}
+
+
+.left p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: aqua;
+	font-size: 24px;
+}
+
+
+.a1 {
+	padding: 100px;
+	background: pink;
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+.a1 h1{
+	text-align: center;
+	
+}
+
+.a2 {
+	padding: 100px;
+	background: aqua;
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 24px;
+	color: black;
+
+
+}
+
+.a2 h1{
+	text-align: center;
+}
+
+.a3 {
+	padding: 90px;
+	background: gray;
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+.a3 h1{
+	text-align: center;
+}
+
+.fourth {
+	padding: 130px;
+	background: purple;
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+.fourth h1{
+	text-align: center;
+}
+
+	

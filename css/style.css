@@ -1,0 +1,160 @@
+a {
+	text-decoration: none;
+	font-family: Verdana;
+}
+ 
+
+.button {
+	background: black;
+	padding: 8px 20px;
+	grid-template-columns: 1fr (repeat, 5);
+	color: #76d1f9;
+}
+
+input {
+	height: 30px;
+	width: 150px;
+	background: black;
+	border-color: #76d1f9;
+	color: gray;
+	margin-bottom: 10px;
+	position: absolute; right: 100px;
+}
+
+.button:hover {
+	background: #76d1f9;
+	color: black;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	color: #76d1f9;
+}
+
+.logo{
+	margin: 0;
+	height: 150px;
+	border-radius: 100px;
+}
+
+head {
+	padding: 50px;
+}
+
+
+header {
+	padding: 90px;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	background-color: black;
+}
+
+/* BODY SECTION */
+
+.container {
+	padding: 200px;
+	background: #76d1f9;
+	color: white;
+	margin-bottom: 10px;
+	background-image: url(../images/travels.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.container2 {
+	padding: 200px;
+	background-image: url(../images/stand.jpg);
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	font-size: 15px;
+	text-shadow: 0 0 10px black;
+}
+
+
+.container3 {
+	padding: 200px;
+	background: #76d1f9;
+	color: white;
+	margin-bottom: 10px;
+	background-image: url(../images/one.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	text-shadow: 0 0 10px black;
+}
+
+
+.container4 {
+	padding: 400px;
+	background: #76d1f9;
+	color: white;
+	margin-bottom: 10px;
+	background-image: url(../images/tric.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	text-shadow:0 0 10px black;
+}
+
+.container4:hover {
+	background-image: url(../images/building.jpg);
+	background-size: cover;
+}
+
+/* MAIN FOOTER SECTION */
+
+footer {
+	text-align: center;
+	padding: 30px;
+	color: #76d1f9;
+	position: absolute; left: 40px;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+	
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #76d1f9;
+    color: black;
+}
+
+/* Instagram */
+.fa-instagram {
+	background: #76d1f9;
+	color: black;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: #76d1f9;
+    color: black;
+	
+}
